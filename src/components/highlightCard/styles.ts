@@ -28,7 +28,7 @@ export const Title = styled.Text<TypeProps>`
 
 `;
 
-export const Icon = styled(Feather) <TypeProps>`
+export const Icon = styled(Feather)<TypeProps>`
     font-size:40px;
 
     ${({ type }) => type === 'up' && css`
